@@ -5,6 +5,6 @@ export interface AddTwoNumbersProps {
 }
 
 export const addTwoNumbers = (props: AddTwoNumbersProps): number => {
-  const { number1, number2 } = props;
+  const { number1, number2 } = props
   return number1 + number2
 }
